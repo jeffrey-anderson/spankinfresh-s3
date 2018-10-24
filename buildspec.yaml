@@ -1,12 +1,12 @@
-version: 0.1
+version: 0.2
 
 phases:
   build:
     commands:
-      - echo nothing to do yet
-  artifacts:
-    files:
-      - css/*
-      - images/*
-      - js/*
-      - index.html
+    - echo nothing to do yet
+artifacts:
+  files:
+  - css/*
+  - images/*
+  - js/*
+  - index.html
